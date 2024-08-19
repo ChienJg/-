@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<!-- <text>pages/index/index.wxml</text> -->
+<view class='container'>
+  <image src='{{imagename}}'></image>
+  <text>{{name}}</text>
+  <button open-type='getUserInfo' bindgetuserinfo="getCJInfo">点击获取头像和昵称</button>
+</view>
